@@ -16,7 +16,7 @@ public class Screen_saver extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen_saver);
-        // Tạo một timer để chuyển sang activity chính sau 5 giây
+        // Tạo một timer để chuyển sang activity chính sau 3 giây
         Timer timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override

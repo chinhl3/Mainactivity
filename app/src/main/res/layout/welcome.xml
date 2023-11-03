@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Get started"
-        android:background="@android:color/transparent"
+        android:background="@drawable/bg_btl"
         android:textColor="@color/black"
         app:cornerRadius="0dp" />
 
