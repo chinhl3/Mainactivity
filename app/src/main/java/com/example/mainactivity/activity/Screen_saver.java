@@ -1,11 +1,11 @@
-package com.example.mainactivity;
+package com.example.mainactivity.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.example.mainactivity.activity.Welcome;
+import com.example.mainactivity.R;
 
 import java.util.Timer;
 import java.util.TimerTask;

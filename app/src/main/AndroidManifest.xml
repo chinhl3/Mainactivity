@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Mainactivity"
         tools:targetApi="31">
         <activity
-            android:name=".Screen_saver"
+            android:name=".activity.Screen_saver"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
