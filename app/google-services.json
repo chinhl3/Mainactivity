@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "147957930515",
+    "project_id": "shop-shoe-du-an",
+    "storage_bucket": "shop-shoe-du-an.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147957930515:android:8211c1a9026632d9aebde6",
+        "android_client_info": {
+          "package_name": "com.example.mainactivity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2GRAs7m6IJA7PyLI4YEnZPWr14OCu6uM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
