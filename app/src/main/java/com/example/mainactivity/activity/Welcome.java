@@ -11,6 +11,6 @@ public class Welcome extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity__screen_saver);
+        setContentView(R.layout.welcome);
     }
 }
