@@ -1,8 +1,10 @@
-package com.example.mainactivity;
+package com.example.mainactivity.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.mainactivity.R;
 
 public class Welcome extends AppCompatActivity {
 

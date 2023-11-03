@@ -1,4 +1,4 @@
-package com.example.mainactivity;
+package com.example.mainactivity.activity;
 
 import static android.content.ContentValues.TAG;
 
@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.mainactivity.R;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.firestore.DocumentReference;
