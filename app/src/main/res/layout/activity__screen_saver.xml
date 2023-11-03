@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".Welcome">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hinh_cho"
+        android:layout_marginTop="100dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ShoeShop"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/find_shoe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find your perfect pair of shoes \n\t and step up your style!"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/bat_dau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Get started"
+        android:background="@android:color/transparent"
+        android:textColor="@color/black"
+        app:cornerRadius="0dp" />
+
+</LinearLayout>
