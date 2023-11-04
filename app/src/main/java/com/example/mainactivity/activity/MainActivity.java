@@ -44,6 +44,6 @@ public class MainActivity extends AppCompatActivity {
                         Log.w(TAG, "Error adding document", e);
                     }
                 });
-//       dm
+// le minh dat
     }
 }
