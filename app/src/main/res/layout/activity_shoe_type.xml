@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     tools:context=".activity.Shoe_type">
     <TextView
         android:layout_width="match_parent"
@@ -21,6 +22,7 @@
         android:columnCount="2"
         >
         <androidx.cardview.widget.CardView
+            android:id="@+id/tim_kiem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -42,12 +44,12 @@
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/baseline_home_24"
+                    android:src="@drawable/tim_kiem"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="asdasdasdasd"
+                    android:text="Search"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -104,12 +106,12 @@
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/baseline_home_24"
+                    android:src="@drawable/cart"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="asdasdasdasd"
+                    android:text="cart"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -135,12 +137,12 @@
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/baseline_home_24"
+                    android:src="@drawable/heart"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="asdasdasdasd"
+                    android:text="like"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -166,12 +168,12 @@
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/baseline_home_24"
+                    android:src="@drawable/star"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="asdasdasdasd"
+                    android:text="Reviews"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -197,12 +199,12 @@
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/baseline_home_24"
+                    android:src="@drawable/gia"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="asdasdasdasd"
+                    android:text="Price"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -228,17 +230,18 @@
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:src="@drawable/baseline_home_24"
+                    android:src="@drawable/mau"
                     />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="asdasdasdasd"
+                    android:text="Colors"
                     />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
 
     </GridLayout>
+
 
 </LinearLayout>
