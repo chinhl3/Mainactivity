@@ -13,6 +13,8 @@ import android.os.Handler;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.SearchView;
 import android.widget.Toast;
 
 import com.android.volley.RequestQueue;
@@ -39,6 +41,7 @@ import me.relex.circleindicator.CircleIndicator3;
 public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
     ViewPager2 viewPager2;
+
     ArrayList<hinh>list_hinh;
     CircleIndicator3 circleIndicator3;
     sp_rcv_apdapter apdapter;
@@ -63,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         toolbar=findViewById(R.id.toolbar);
         viewPager2=findViewById(R.id.viewPager2);
+
         circleIndicator3=findViewById(R.id.circleIndicator3);
         setSupportActionBar(toolbar);
 //        tạo slider hinh
@@ -86,6 +90,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(gridLayoutManager);
         list=new ArrayList<>();
         lay_du_lieu();
+//        tim kiem
 
 
 
@@ -102,6 +107,11 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (R.id.search==item.getItemId()){
             Intent intent=new Intent(MainActivity.this, Search.class);
+            startActivity(intent);
+        }
+
+        if (R.id.gio_hang==item.getItemId()){
+            Intent intent=new Intent(MainActivity.this, Car.class);
             startActivity(intent);
         }
         return true;

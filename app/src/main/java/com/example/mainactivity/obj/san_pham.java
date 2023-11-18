@@ -1,6 +1,11 @@
 package com.example.mainactivity.obj;
 
-public class san_pham {
+import android.os.Parcel;
+import android.os.Parcelable;
+
+import androidx.annotation.NonNull;
+
+public class san_pham implements Parcelable {
     private int gia,so_luong;
     private String name_anh,ten_sp,kich_thuoc,mo_ta;
 
@@ -15,6 +20,27 @@ public class san_pham {
 
     public san_pham() {
     }
+
+    protected san_pham(Parcel in) {
+        gia = in.readInt();
+        so_luong = in.readInt();
+        name_anh = in.readString();
+        ten_sp = in.readString();
+        kich_thuoc = in.readString();
+        mo_ta = in.readString();
+    }
+
+    public static final Creator<san_pham> CREATOR = new Creator<san_pham>() {
+        @Override
+        public san_pham createFromParcel(Parcel in) {
+            return new san_pham(in);
+        }
+
+        @Override
+        public san_pham[] newArray(int size) {
+            return new san_pham[size];
+        }
+    };
 
     public int getGia() {
         return gia;
@@ -62,5 +88,20 @@ public class san_pham {
 
     public void setMo_ta(String mo_ta) {
         this.mo_ta = mo_ta;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(@NonNull Parcel dest, int flags) {
+        dest.writeInt(gia);
+        dest.writeInt(so_luong);
+        dest.writeString(name_anh);
+        dest.writeString(ten_sp);
+        dest.writeString(kich_thuoc);
+        dest.writeString(mo_ta);
     }
 }

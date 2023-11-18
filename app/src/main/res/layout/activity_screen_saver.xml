@@ -26,33 +26,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ShoeFinder"
+        android:text="Shoe Shop"
         android:layout_gravity="center"
         android:textSize="30dp"
         android:textStyle="bold"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Find your perfect pair of shoes"
-        android:layout_gravity="center"
-        android:textSize="20dp"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="and step up your style!!"
-        android:layout_gravity="center"
-        android:textSize="20dp"
-       />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Get Started"
-        android:backgroundTint="#88D2DC"
-        android:textColor="@color/black"
-        android:textSize="25dp"
 
-        />
+
+
 
 
 </LinearLayout>
